@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: mediumpurple;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.logo *{
+    color:black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: normal;
+    padding: 0 2rem;
+}
+
+nav * {
+    text-decoration: none; 
+    color: black;
+    font-size: 1rem;
+    padding: 0 1.5rem;
+}
+
+.gradient {
+    height: 2vh;
+    background-image: linear-gradient(rgb(148, 114, 216),rgb(106, 55, 164));
+}
+.gradient-r {
+    height: 2vh;
+    background-image: linear-gradient(rgb(106, 55, 164),mediumpurple);
+}
+
+.hero * {
+    background-color:rgb(106, 55, 164); 
+}
+
+.hero-container {  
+    display: grid;
+    padding: 2rem calc((100vw - 1300px) / 2);
+}
+
+.hero-col {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.messenger_icon {
+    height: 4rem;
+}
+
+.messenger_element {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 6fr;
+    padding: 1rem;
+}
+
+.messenger_text {
+    color: #000;
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 0.5rem;
+    padding: 1rem;
+    
+}
+
+.doc-change {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    background-color: mediumpurple;
+    cursor: pointer;
+}
+
+.hero-container h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.hero-container h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.hero-container p {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
